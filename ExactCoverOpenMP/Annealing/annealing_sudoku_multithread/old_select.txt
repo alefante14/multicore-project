@@ -1,0 +1,20 @@
+            /*
+            //printf("quadx:%d quady:%d\n", quad_x, quad_y);
+            while(attempts<=SUDOKU_SIZE){
+                *xa = rand() % (SUDOKU_SIZE / SUDOKU_SQUARE);
+                *ya = rand() % (SUDOKU_SIZE / SUDOKU_SQUARE);
+                *xb = rand() % (SUDOKU_SIZE / SUDOKU_SQUARE);
+                *yb = rand() % (SUDOKU_SIZE / SUDOKU_SQUARE);
+                //printf(">[%d][%d] - [%d][%d]\n", *xa, *ya, *xb, *yb);
+                //printf("-xa:%d,xb%d,ya%d,yb%d\n", *xa, *xb, *ya, *yb);
+                *xa += quad_x * SUDOKU_SQUARE;
+                *xb += quad_x * SUDOKU_SQUARE;
+                *ya += quad_y * SUDOKU_SQUARE;
+                *yb += quad_y * SUDOKU_SQUARE;
+                //printf("xa:%d,ya%d | xb%d,yb%d\n -- distance x:%d, distance y:%d\n", *xa, *ya, *xb, *yb, *xa - *xb, *ya - *yb);
+                if(psudoku[*xa][*ya] == 0 && psudoku[*xb][*yb] == 0){
+                    notok = 0;
+                    attempts = SUDOKU_SIZE+1;
+                }
+            }
+            */
